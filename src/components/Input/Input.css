@@ -1,0 +1,181 @@
+.input_main {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  /* position: relative; */
+  /* bottom: 0; */
+  /* position: fixed; */
+  align-items: center;
+  background: #ffffff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.emoji-icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 0px 9px 0px 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.emoji-icon:hover {
+  scale: 1.1;
+  color: rgb(255, 230, 0);
+}
+.attach_icon {
+  height: 22px;
+  cursor: pointer;
+  width: 21px;
+  padding: 0px 15px 0px 9px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.attach_icon:hover {
+  scale: 1.1;
+  color: rgb(255, 34, 34);
+}
+.form {
+  width: 86%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 25px;
+  stroke: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  outline: 1px solid #d9d9d9;
+}
+.form input {
+  height: 38px;
+  width: 100%;
+  border: none;
+  padding: 2px;
+  border-radius: 25px;
+  outline: none;
+}
+.msgInput {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.msgSend_icon {
+  height: 23px;
+  width: 23px;
+  padding: 0px 15px 0px 15px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+.micIcon {
+  padding: 0px 15px 0px 15px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.9);
+  height: 22px;
+  width: 21px;
+}
+.micIcon:hover {
+  scale: 1.1;
+  color: rgb(4, 21, 255);
+}
+.form button {
+  border: none;
+  margin-left: 8px;
+  background-color: white;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .form {
+    width: 86%;
+    height: 35px;
+  }
+  .form input {
+    height: 35px;
+    width: 100%;
+  }
+  .msgInput {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .msgSend_icon {
+    height: 21px;
+    width: 21px;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 767px) {
+  .form {
+    width: 86%;
+    height: 32px;
+  }
+  .form input {
+    height: 32px;
+    width: 100%;
+  }
+  .msgInput {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .msgSend_icon {
+    height: 19px;
+    width: 19px;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .micIcon {
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    height: 20px;
+    width: 19px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 677px) {
+  .form {
+    width: 86%;
+    height: 30px;
+  }
+  .form input {
+    height: 30px;
+    width: 100%;
+  }
+  .msgInput {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .msgSend_icon {
+    height: 17px;
+    width: 17px;
+    padding: 0px 8px 0px 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .micIcon {
+    padding: 0px 8px 0px 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    height: 20px;
+    width: 19px;
+  }
+  .emoji-icon {
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+    padding: 0px 9px 0px 8px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .attach_icon {
+    height: 19px;
+    cursor: pointer;
+    width: 19px;
+    padding: 0px 8px 0px 0px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}

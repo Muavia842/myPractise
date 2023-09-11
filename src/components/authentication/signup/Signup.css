@@ -1,0 +1,179 @@
+.image_signup_parrent {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.image_signup_child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 540px;
+  width: 770px;
+}
+.image_signup_parrent img {
+  height: 390px;
+  width: 330px;
+}
+.signup {
+  width: 380px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 1px 3px 0px;
+  border-radius: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px 0px 15px 0px;
+}
+.signup h1 {
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.065em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.label_input {
+  display: flex;
+  flex-direction: column;
+}
+.label_input label {
+  font-weight: 400;
+  font-size: 13px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.label_input input {
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+
+  font-size: 13px;
+}
+.label_input input:focus {
+  border: solid 1px rgb(60, 154, 255);
+}
+/* .label_input input:focus,
+.label_input input:invalid {
+  border: solid 1px rgb(255, 161, 30);
+} */
+.signup button {
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.signup button:hover {
+  transition: 0.5 ease-in-out;
+  background: #ffc21b;
+}
+.signup p {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 16px;
+
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 650px) {
+  .image_signup_parrent img {
+    display: none;
+  }
+  .signup p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .signup {
+    width: 360px;
+    height: 480px;
+  }
+
+  .label_input label {
+    font-weight: 400;
+    font-size: 12.5px;
+    padding: 20px 0px 8px 0px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .label_input input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .login button {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .signup {
+    width: 340px;
+    height: 480px;
+  }
+  .signup h1 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .label_input label {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .label_input input {
+    box-sizing: border-box;
+    width: 295px;
+    height: 36px;
+    font-size: 11px;
+  }
+
+  .login button {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .signup {
+    width: 300px;
+    height: 480px;
+  }
+  .signup h1 {
+    font-weight: 500;
+    font-size: 21px;
+  }
+  .label_input label {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .label_input input {
+    box-sizing: border-box;
+    width: 270px;
+    height: 36px;
+  }
+
+  .signup p {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .signup button {
+    font-size: 15px;
+  }
+}

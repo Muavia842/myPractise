@@ -1,0 +1,59 @@
+.msg_inbox_send_child {
+  /* padding: 0px 25px 15px 0px; */
+  padding: 0px 25px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.msg_inbox_send_child h2 {
+  border-radius: 0px 10px 0px 10px;
+  padding: 9px 16px 9px 16px;
+  background-color: rgb(123, 155, 101);
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.msg_inbox_send_child p {
+  font-weight: 400;
+  font-size: 11px;
+  padding: 5px 0px 0px 0px;
+  color: rgba(0, 0, 0, 0.9);
+  display: flex;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .msg_inbox_send_child h2 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 767px) {
+  .msg_inbox_send_child h2 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .msg_inbox_send_child p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 677px) {
+  .msg_inbox_send_child h2 {
+    padding: 9px 10px 9px 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .msg_inbox_send_child p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .msg_inbox_send_child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
